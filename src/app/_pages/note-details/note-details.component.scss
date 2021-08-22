@@ -1,0 +1,22 @@
+@import '../../../customizedStyle';
+
+.form-container {
+  max-width: 500px;
+
+  margin: 0 auto;
+  padding-top: 50px;
+
+  .actions {
+    .btn-save {
+      width: 65px;
+    }
+
+    button {
+      border-radius: 5px;
+    }
+    .save, .cancel {
+      font-size: 16px;
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './customizedStyle.scss';
+@import '../node_modules/bulma/bulma.sass';
+@import '~ngx-toastr/toastr';
+
+#toast-container>.toast-success {
+  background-color: $purple !important;
+}
+
+#toast-container>.toast-error {
+  background-color: #e74c3c !important;
+}
+
+#toast-container>.toast-warning {
+  background-color: $light-blue !important;
+}

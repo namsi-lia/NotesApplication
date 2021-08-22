@@ -1,0 +1,35 @@
+@import '../../../customizedStyle';
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 500px;
+
+  margin: 0 auto;
+  padding: 50px 10px 0 10px;
+
+  .floating-add-button {
+    position: fixed;
+    bottom: 5px;
+    width: 500px;
+    border-radius: 5px;
+
+    box-shadow: 0 0 15px 5px rgba($light-blue, .2);
+
+    font-weight: bold;
+  }
+
+  .no-notes {
+    text-align: center;
+
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.notes-list {
+  margin-top: 20px;
+}
+

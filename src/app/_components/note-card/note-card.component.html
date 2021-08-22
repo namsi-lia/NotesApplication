@@ -1,0 +1,18 @@
+<span class="createdAt">{{ note.createdAt | timeago:live }}</span>
+
+<div #card class="note-card">
+  <div class="content">
+    <h1 class="title" (click)="goToNote('update', note)">{{ note.title }}</h1>
+
+    <div #bodyText class="body">
+      <p>{{ note.description }}</p>
+
+      <div #truncator class="fade-out-truncation"></div>
+    </div>
+  </div>
+
+  <div class="delete-btn" (click)="onDeleteNote()">
+    <i class="fas fa-times"></i>
+  </div>
+</div>
+
